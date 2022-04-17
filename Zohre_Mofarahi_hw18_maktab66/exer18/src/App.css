@@ -1,0 +1,126 @@
+body {
+  background: #25333c !important;
+  color: white!important;
+  
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+ }
+
+
+.unActive {
+  background-color: #445359;
+  color:white;
+  font-size: 1.5rem;
+  text-align:center;
+  padding: 0.5% 8%;
+  vertical-align:auto;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.Active {
+  background-color: #1ab187;
+  color:white;
+  font-size: 1.5rem;
+  text-align:center;
+  padding: 0.5% 8%;
+  vertical-align:auto;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+
+}
+
+.inputLog {
+  padding-left:28%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border:0px;
+  
+}
+
+.divPass {
+  
+  width: 101%;
+  margin-right: 61%
+}
+
+.eyePass{
+  right: -58px;
+  position: relative;
+  }
+
+.logButton {
+      padding: 8% 97%;
+      background-color: #1ab187;
+      color:white;
+      border: 0px;
+      border-radius: 2%;
+      font-weight: 2rem !important;
+      margin-top: 15%;
+}
+
+a {
+  margin-right: -130%;
+  color: #1ab187 !important;
+}
+
+.inputstyle {
+  padding-left:100%;
+  padding-right: 8%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  margin-top: 15%;
+}
+
+.firstLastName {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 32%;
+}
+
+.eyepassregister {
+    right: 280px;
+    top: -60px;
+    position: relative;
+}
+
+
+::placeholder{
+  
+  color: #1ab187;
+}
+
+option {
+  background-color: transparent;
+  color: rgb(253, 253, 253);
+}
+
+.nodis {
+  display: none;
+}
+
+.validation {
+  margin-right: -85%;
+    font-size: 1rem;
+    margin-top: 5%;
+    color: red;
+}
